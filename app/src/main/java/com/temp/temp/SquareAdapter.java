@@ -15,6 +15,7 @@ import android.view.WindowManager;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.ViewFlipper;
 
 import java.util.Random;
 
@@ -73,58 +74,46 @@ public class SquareAdapter extends  BaseAdapter{
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) mContext
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View gv;
+        final ViewFlipper flipper;
         if (convertView == null) {
-            gv = inflater.inflate(R.layout.grid_item_container, null);
+            flipper = (ViewFlipper) inflater.inflate(R.layout.grid_item_container, null);
+            flipper.getDisplayedChild();
+            View v = flipper.findViewById(R.id.front_view);
+            v.setBackgroundColor(generateRandomColor());
+            TextView textView = (TextView) v.findViewById(R.id.front_view_text);
+            textView.setText(vals[position]);
 
             int ideal_size = calculateIdealSize();
-            gv.setLayoutParams(new GridView.LayoutParams(ideal_size, ideal_size));
-            FragmentManager fm = ((Activity) mContext).getFragmentManager();
+            flipper.setLayoutParams(new GridView.LayoutParams(ideal_size, ideal_size));
+            flipper.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View click) {
+                    flipCard(flipper);
+                }
+            });
 
-            Fragment front = new GridItemFrontFragment();
-            Bundle args = new Bundle();
-            args.putString("name", vals[position]);
-            front.setArguments(args);
+//            FragmentManager fm = ((Activity) mContext).getFragmentManager();
+
+//            Fragment front = new GridItemFrontFragment();
+//            Bundle args = new Bundle();
+//            args.putString("name", vals[position]);
+//            front.setArguments(args);
 //            int id = generateViewId(gv);
-            int id = position+1;
-            gv.setId(id);
-            Log.d("ID", Integer.toString(gv.getId()));
-            fm.beginTransaction().add(id, front).commit();
+//            int id = position+1;
+//            flipper.setId(id);
+            Log.d("ID", Integer.toString(flipper.getId()));
+//            fm.beginTransaction().add(id, front).commit();
         } else {
-            gv = convertView;
+            flipper = (ViewFlipper) convertView;
         }
 
-        return gv;
+        return flipper;
     }
 
-    /**
-     * A fragment representing the front of the card.
-     */
-    public static class GridItemFrontFragment extends Fragment {
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View v = inflater.inflate(R.layout.grid_item_front, container, false);
-            v.setBackgroundColor(generateRandomColor());
-            TextView textView = (TextView) v.findViewById(R.id.grid_item_front_text);
-            textView.setText(this.getArguments().getString("name"));
-            return v;
-        }
-
-        private int generateRandomColor() {
-            Random rnd = new Random();
-            return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-        }
-    }
-
-    /**
-     * A fragment representing the back of the card.
-     */
-    public static class GridItemBackFragment extends Fragment {
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.grid_item_back, container, false);
-        }
+    private void flipCard(ViewFlipper v) {
+        if (v.getDisplayedChild() == 0)
+            v.setDisplayedChild(1);
+        else
+            v.setDisplayedChild(0);
     }
 }
