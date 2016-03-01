@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/SquareAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+              <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#896#897#0" expanded="true" />
@@ -64,8 +64,8 @@
                 <element signature="e#1134#1135#0" expanded="true" />
                 <element signature="e#1191#1192#0" expanded="true" />
                 <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#2878#3119#0" expanded="true" />
-                <element signature="e#3118#3119#0" expanded="true" />
+                <element signature="e#2878#3147#0" expanded="true" />
+                <element signature="e#3146#3147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,48 +75,48 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/AnimationFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2492#2493#0" expanded="true" />
-                <element signature="e#2524#2525#0" expanded="true" />
-                <element signature="e#3283#3284#0" expanded="true" />
-                <element signature="e#3315#3316#0" expanded="true" />
-                <element signature="e#14939#14940#0" expanded="true" />
-                <element signature="e#15003#15004#0" expanded="true" />
-                <element signature="e#15192#15193#0" expanded="true" />
-                <element signature="e#15253#15254#0" expanded="true" />
-                <element signature="e#15908#15909#0" expanded="true" />
-                <element signature="e#15969#15970#0" expanded="true" />
-                <element signature="e#16158#16159#0" expanded="true" />
-                <element signature="e#16222#16223#0" expanded="true" />
-                <element signature="e#17950#17951#0" expanded="true" />
-                <element signature="e#18008#18009#0" expanded="true" />
-                <element signature="e#18195#18196#0" expanded="true" />
-                <element signature="e#18256#18257#0" expanded="true" />
+                <element signature="e#2510#2511#0" expanded="true" />
+                <element signature="e#2542#2543#0" expanded="true" />
+                <element signature="e#3301#3302#0" expanded="true" />
+                <element signature="e#3333#3334#0" expanded="true" />
+                <element signature="e#15663#15664#0" expanded="true" />
+                <element signature="e#15727#15728#0" expanded="true" />
+                <element signature="e#15916#15917#0" expanded="true" />
+                <element signature="e#15977#15978#0" expanded="true" />
+                <element signature="e#16639#16640#0" expanded="true" />
+                <element signature="e#16700#16701#0" expanded="true" />
+                <element signature="e#16889#16890#0" expanded="true" />
+                <element signature="e#16953#16954#0" expanded="true" />
+                <element signature="e#18761#18762#0" expanded="true" />
+                <element signature="e#18819#18820#0" expanded="true" />
+                <element signature="e#19006#19007#0" expanded="true" />
+                <element signature="e#19067#19068#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlipAnimation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlipAnimation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/FlipAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.285714">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state vertical-scroll-proportion="-1.0534351">
+              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4942#4943#0" expanded="true" />
-                <element signature="e#4980#4981#0" expanded="true" />
+                <element signature="e#5166#5167#0" expanded="true" />
+                <element signature="e#5204#5205#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_item_container.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grid_item_container.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_item_container.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37388724">
+            <state vertical-scroll-proportion="-4.5">
               <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
               <folding />
             </state>
@@ -1710,10 +1710,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/anim/other_left_in.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/other_left_out.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/blah.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/FlipAnimation.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/AnimationFactory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/SquareAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/grid_item_container.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/SquareAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/AnimationFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/temp/temp/FlipAnimation.java" />
       </list>
     </option>
   </component>
@@ -2044,7 +2044,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3488372" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25581396" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2053,7 +2053,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20694864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2195,22 +2195,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/FlipAnimation.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_item_container.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.285714">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4942#4943#0" expanded="true" />
-            <element signature="e#4980#4981#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/SquareAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#896#897#0" expanded="true" />
@@ -2219,8 +2218,8 @@
             <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1191#1192#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#2878#3119#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#2878#3147#0" expanded="true" />
+            <element signature="e#3146#3147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2228,38 +2227,39 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/AnimationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2524#2525#0" expanded="true" />
-            <element signature="e#3283#3284#0" expanded="true" />
-            <element signature="e#3315#3316#0" expanded="true" />
-            <element signature="e#14939#14940#0" expanded="true" />
-            <element signature="e#15003#15004#0" expanded="true" />
-            <element signature="e#15192#15193#0" expanded="true" />
-            <element signature="e#15253#15254#0" expanded="true" />
-            <element signature="e#15908#15909#0" expanded="true" />
-            <element signature="e#15969#15970#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16222#16223#0" expanded="true" />
-            <element signature="e#17950#17951#0" expanded="true" />
-            <element signature="e#18008#18009#0" expanded="true" />
-            <element signature="e#18195#18196#0" expanded="true" />
-            <element signature="e#18256#18257#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="e#2542#2543#0" expanded="true" />
+            <element signature="e#3301#3302#0" expanded="true" />
+            <element signature="e#3333#3334#0" expanded="true" />
+            <element signature="e#15663#15664#0" expanded="true" />
+            <element signature="e#15727#15728#0" expanded="true" />
+            <element signature="e#15916#15917#0" expanded="true" />
+            <element signature="e#15977#15978#0" expanded="true" />
+            <element signature="e#16639#16640#0" expanded="true" />
+            <element signature="e#16700#16701#0" expanded="true" />
+            <element signature="e#16889#16890#0" expanded="true" />
+            <element signature="e#16953#16954#0" expanded="true" />
+            <element signature="e#18761#18762#0" expanded="true" />
+            <element signature="e#18819#18820#0" expanded="true" />
+            <element signature="e#19006#19007#0" expanded="true" />
+            <element signature="e#19067#19068#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_item_container.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temp/temp/FlipAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37388724">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="-1.0534351">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5166#5167#0" expanded="true" />
+            <element signature="e#5204#5205#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

@@ -90,7 +90,8 @@ public class SquareAdapter extends  BaseAdapter{
             flipper.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View click) {
-                    AnimationFactory.flipTransition(flipper, AnimationFactory.FlipDirection.LEFT_RIGHT);
+                    AnimationFactory.flipTransition(flipper,
+                            AnimationFactory.FlipDirection.LEFT_RIGHT);
                 }
             });
         } else {
