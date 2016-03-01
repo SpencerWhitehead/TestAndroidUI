@@ -12,9 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.ViewAnimator;
 import android.widget.ViewFlipper;
 
 import java.util.Random;
@@ -60,7 +62,7 @@ public class SquareAdapter extends  BaseAdapter{
         // in dp
         double idealSize = 182.5;
         float density = mContext.getResources().getDisplayMetrics().density;
-        int screenWidth = (int) Math.round(metrics.widthPixels/density);
+        int screenWidth = Math.round(metrics.widthPixels/density);
         int numSquares = (int) Math.round(screenWidth/idealSize);
         return (int) (screenWidth*density)/numSquares;
     }
@@ -88,32 +90,13 @@ public class SquareAdapter extends  BaseAdapter{
             flipper.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View click) {
-                    flipCard(flipper);
+                    AnimationFactory.flipTransition(flipper, AnimationFactory.FlipDirection.LEFT_RIGHT);
                 }
             });
-
-//            FragmentManager fm = ((Activity) mContext).getFragmentManager();
-
-//            Fragment front = new GridItemFrontFragment();
-//            Bundle args = new Bundle();
-//            args.putString("name", vals[position]);
-//            front.setArguments(args);
-//            int id = generateViewId(gv);
-//            int id = position+1;
-//            flipper.setId(id);
-            Log.d("ID", Integer.toString(flipper.getId()));
-//            fm.beginTransaction().add(id, front).commit();
         } else {
             flipper = (ViewFlipper) convertView;
         }
 
         return flipper;
-    }
-
-    private void flipCard(ViewFlipper v) {
-        if (v.getDisplayedChild() == 0)
-            v.setDisplayedChild(1);
-        else
-            v.setDisplayedChild(0);
     }
 }
